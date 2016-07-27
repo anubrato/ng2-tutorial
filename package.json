@@ -1,0 +1,28 @@
+{
+    "name": "ng2-tutorial",
+    "version": "1.0.0",
+    "description": "Angular 2 official tutorial hands-on",
+    "main": "app/app.component.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/anubrato/ng2-tutorial.git"
+    },
+    "dependencies": {
+
+    },
+    "peerDependencies": {
+
+    },
+    "devDependencies": {
+
+    },
+    "author": "anubrato",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/anubrato/ng2-tutorial/issues"
+    },
+    "homepage": "https://github.com/anubrato/ng2-tutorial#readme"
+}
