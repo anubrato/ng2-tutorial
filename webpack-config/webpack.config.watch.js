@@ -8,7 +8,6 @@ const webpackWatchConfig = {
         devserver: __dirname + '/../node_modules/webpack-dev-server/client?http://localhost:7001/',
         hmr:  __dirname + '/../node_modules/webpack/hot/dev-server'
     },
-    devtool: 'cheap-module-source-map',
     cache: true,
     output: {
         path: cwd + '/dist',

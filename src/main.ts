@@ -4,4 +4,4 @@ import {AppComponent} from './app/app.component';
 
 import './styles.css';
 
-bootstrap(AppComponent);
+bootstrap(AppComponent).catch(error => console.log(error));

@@ -14,7 +14,7 @@ module.exports = {
         vendor: './src/vendor.ts',
         main: './src/main.ts'
     },
-    devtool: 'source-map',
+    devtool: 'eval',
     debug: true,
     resolve: {
         extensions: ['', '.webpack.js', '.web.js', '.ts', '.js']
