@@ -14,7 +14,6 @@ module.exports = {
         vendor: './src/vendor.ts',
         main: './src/main.ts'
     },
-    cache: true,
     devtool: 'source-map',
     debug: true,
     resolve: {
