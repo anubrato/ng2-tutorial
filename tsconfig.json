@@ -1,21 +1,13 @@
 {
     "compilerOptions": {
-        "target": "es5",
         "module": "commonjs",
+        "target": "es5",
+        "outDir": "dist",
+        "rootDir": ".",
+        "sourceMap": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "moduleResolution": "node",
-        "noEmitOnError": false,
-        "noEmitHelpers": true,
-        "noImplicitAny": true,
-        "removeComments": true,
-        "sourceMap": false,
-        "noImplicitReturns": true,
-        "noFallthroughCasesInSwitch": true,
-        "allowUnreachableCode": false,
-        "allowSyntheticDefaultImports": false,
-        "allowJs": false,
-        "noImplicitUseStrict": true
+        "moduleResolution": "node"
     },
     "exclude": [
         "node_modules",
